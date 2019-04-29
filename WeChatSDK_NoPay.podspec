@@ -30,6 +30,8 @@ Pod::Spec.new do |s|
 
   s.requires_arc = true
 
+  s.public_header_files = 'Libraries/*.h'
+
   s.ios.vendored_libraries = 'Libraries/libWeChatSDK.a'
 
 end
