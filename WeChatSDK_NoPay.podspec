@@ -9,8 +9,8 @@
 Pod::Spec.new do |s|
 
   s.name         = "WeChatSDK_NoPay"
-  s.version      = "1.8.4"
-  s.summary      = "WeChat no pay SDK 1.8.4 version"
+  s.version      = "1.8.6.1"
+  s.summary      = "WeChat no pay SDK 1.8.6.1 version"
 
   s.homepage     = "https://open.weixin.qq.com"
 
