@@ -36,4 +36,6 @@ Pod::Spec.new do |s|
 
   s.ios.vendored_libraries = 'Libraries/libWeChatSDK.a'
 
+  s.ios.frameworks = 'UIKit', 'Foundation', 'WebKit'
+
 end
