@@ -2,6 +2,9 @@
 
 重要!
 
+SDK1.8.6.2
+1. 修改包含"UIWebView"字符的类名
+
 SDK1.8.6.1
 1.短信授权登录使用的UIWebview切换成WKWebview
 
@@ -112,3 +115,4 @@ SDK1.5
 2、新增+(BOOL) sendAuthReq:(SendAuthReq*) req viewController : (UIViewController*) viewController delegate:(id<WXApiDelegate>) delegate;
 支持未安装微信情况下Auth,具体见WXApi.h接口描述
 3、微信开放平台新增了微信模块用户统计功能，便于开发者统计微信功能模块的用户使用和活跃情况。开发者需要在工程中链接上:SystemConfiguration.framework,libz.dylib,libsqlite3.0.dylib。
+
