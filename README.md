@@ -2,6 +2,15 @@
 
 重要!
 
+SDK1.8.9
+1. 增加音乐视频分享类型
+
+SDK1.8.8
+1. 增加游戏直播消息类型
+
+SDK1.8.7.1
+1. 修复Xcode11以下编译不通过
+
 SDK1.8.7
 1. 修复iPadOS，未安装微信的情况下，因为UA问题无法授权登录
 2. 修复未安装微信的情况下, 适配了UIScene的App因为UIAlertView Crash
@@ -120,5 +129,3 @@ SDK1.5
 2、新增+(BOOL) sendAuthReq:(SendAuthReq*) req viewController : (UIViewController*) viewController delegate:(id<WXApiDelegate>) delegate;
 支持未安装微信情况下Auth,具体见WXApi.h接口描述
 3、微信开放平台新增了微信模块用户统计功能，便于开发者统计微信功能模块的用户使用和活跃情况。开发者需要在工程中链接上:SystemConfiguration.framework,libz.dylib,libsqlite3.0.dylib。
-
-

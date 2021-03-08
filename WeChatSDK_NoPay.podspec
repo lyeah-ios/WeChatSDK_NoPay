@@ -9,14 +9,14 @@
 Pod::Spec.new do |s|
 
   s.name         = "WeChatSDK_NoPay"
-  s.version      = "1.8.7"
+  s.version      = "1.8.9"
   s.summary      = "WeChat no pay SDK 1.8.7 version"
 
   s.homepage     = "https://open.weixin.qq.com"
 
   s.license      = "MIT"
  
-  s.author             = { 'Tencent' => 'https://open.weixin.qq.com/cgi-bin/showdocument?action=dir_list&t=resource/res_list&verify=1&id=open1419319164&lang=zh_CN' }
+  s.author       = { 'Tencent' => 'https://developers.weixin.qq.com/doc/oplatform/Downloads/iOS_Resource.html' }
  
   s.platform     = :ios
 
